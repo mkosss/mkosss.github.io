@@ -3,6 +3,11 @@ body {
   background-color: #F0F0F0;
   text-align:center;
   }
+  
+img.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto }
 
 a:link {
   text-decoration: none;
