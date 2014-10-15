@@ -8,7 +8,7 @@ body {
     animation:dance 10s;
     }
 
-@keyframes dance 
+@keyframes fiction
     {
     0%		{transform: rotate(0deg);left:0px;}
     25%		{transform: rotate(20deg);left:0px;}
