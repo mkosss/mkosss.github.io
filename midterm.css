@@ -1,3 +1,39 @@
-background {
-  background-color: white;
+body {
+	font-family: "helvetica", sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color:black;
+}
+
+a:hover {
+	text-decoration: none;
+	color:aqua;
+	-webkit-transition: all 0.2s;
+	-moz-transtion: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+ }
+
+#navbar{
+	width: 600%;
+	height:30px;
+	margin-top:40px;
+	margin-bottom:30px;
+ }  
+
+#container {
+  width: 60%;
+  position: relative;
+  margin:auto;
+}
+
+
+footer {
+	background-color:aqua;
+    font-size:11px; color:white;
+    text-align:center;
+    padding:40px; 
 }
