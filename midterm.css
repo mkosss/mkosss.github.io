@@ -1,5 +1,6 @@
 body {
 	font-family: "helvetica", sans-serif;
+	font-size: 14px;
 }
 
 a {
@@ -21,19 +22,28 @@ a:hover {
 	width: 600%;
 	height:30px;
 	margin-top:40px;
-	margin-bottom:30px;
+	margin-bottom:25px;
  }  
 
 #container {
-  width: 60%;
-  position: relative;
-  margin:auto;
+ 	width: 60%;
+ 	position: relative;
+  	margin:auto;
 }
 
+.section {
+  position:relative;
+  width: 100%;
+  border: 1px solid;
+  text-align: center;
+  margin-top: 40px;
+ 
+}
 
 footer {
 	background-color:aqua;
     font-size:11px; color:white;
     text-align:center;
     padding:40px; 
+    margin-top: 25px
 }
