@@ -43,3 +43,16 @@ section {
 	text-align: center;
 	padding-top: 25%;
 }
+
+@media (min-width: 960px) {
+  body {
+    width: 960px;
+  }
+}
+
+@media (min-width: 400px) {
+  body {
+    width: 100%;
+    padding: 10px;
+  }
+}
