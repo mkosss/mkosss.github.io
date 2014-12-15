@@ -13,7 +13,7 @@ section {
 }
 
 #a {
-	background-image: url('img/b.jpg');
+	background-image: url('http://i.imgur.com/34J4IBl.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
@@ -35,7 +35,7 @@ section {
 }
 
 #c {
-	background-image: url('img/b.jpg');
+	background-image: url('http://i.imgur.com/34J4IBl.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
