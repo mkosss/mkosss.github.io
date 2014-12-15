@@ -6,3 +6,40 @@ body {
 	margin: 0;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
+section {
+	width: 100vw;
+	height: 100vh;
+}
+
+#a {
+	background-image: url('img/b.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#a h1 {
+	position: absolute;
+	top: 37%;
+	text-align: center;
+	width: 100%;
+	font-size: 40pt;
+}
+
+#b {
+	background: #ccc;
+	position: relative;
+	padding: 30px;
+	text-align: center;
+}
+
+#c {
+	background-image: url('img/b.jpg');
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	padding: 30px;
+	text-align: center;
+	padding-top: 25%;
+}
