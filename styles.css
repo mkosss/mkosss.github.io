@@ -63,18 +63,3 @@ section {
   margin: 0 auto;
   overflow: hidden;
 }
-
-
-.img {
-  position: relative;
-  left: 50%;
-  @include translateX(-50%);
-  max-height: 100%;
- 
-  @media (min-width: 800px) {
-    left: 0; // set the left back to 0
-    max-height: none; // remove the max-height
-    max-width: 100%;
-    @include translateY(-50%);
-  }
-}
