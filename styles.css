@@ -4,7 +4,7 @@
 
 body {
 	margin: 0;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Gill Sans", Helvetica, sans-serif;
 }
 
 section {
@@ -13,7 +13,7 @@ section {
 }
 
 #a {
-	background-image: url('http://i62.tinypic.com/2dw7w4p.jpg');
+	background-image: url('http://i60.tinypic.com/2wogbpz.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
@@ -21,25 +21,60 @@ section {
 
 #a h1 {
 	position: absolute;
-	top: 37%;
+	top: 33%;
 	text-align: center;
 	width: 100%;
-	font-size: 40pt;
+	font-size: 30pt;
+	font-weight:normal;
+	letter-spacing: 8px;
+	color: aqua;
 }
 
 #b {
-	background: #ccc;
 	position: relative;
 	padding: 30px;
 	text-align: center;
 }
 
 #c {
-	background-image: url('http://i.imgur.com/34J4IBl.jpg');
+	background-image: url('http://i62.tinypic.com/n1qdkz.jpg');
 	background-size: cover;
 	background-position: center center;
 	background-attachment: fixed;
 	padding: 30px;
 	text-align: center;
 	padding-top: 25%;
+}
+
+
+
+#fade:hover {
+    opacity:0.5;
+    -webkit-transition: all 0.4s;
+    -moz-transtion: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.img-contain {
+  width: 100vw;
+  height: relative;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+
+.img {
+  position: relative;
+  left: 50%;
+  @include translateX(-50%);
+  max-height: 100%;
+ 
+  @media (min-width: 800px) {
+    left: 0; // set the left back to 0
+    max-height: none; // remove the max-height
+    max-width: 100%;
+    @include translateY(-50%);
+  }
 }
